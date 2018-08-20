@@ -5,7 +5,7 @@ import movieData from './data.js'
 export default class MovieShowcase extends Component {
 
   generateMovieCards = () => {
-    <Moviecard[0] />
+    <Moviecard/>
   }
 
   render() {
