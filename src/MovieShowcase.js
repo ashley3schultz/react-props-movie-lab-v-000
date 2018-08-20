@@ -5,13 +5,12 @@ import movieData from './data.js'
 export default class MovieShowcase extends Component {
 
   generateMovieCards = () => {
-    <Moviecard />
+    <Moviecard[0] />
   }
 
   render() {
     return (
       <div id="movie-showcase">
-      <MovieCard />
         {this.generateMovieCards()}
       </div>
     )
